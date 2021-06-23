@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>GRAFOS</title>
+</head>
+
+<body>
+    <div class="nav-list">
+        <nav>
+            <ul class="nav-ul">
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="index.html">Matriz</a></li>
+            </ul>
+        </nav>
+    </div>
+    <center>
+        <h1 style="text-align: center;">GRAFOS</h1>
+        <label for="">Grafo: </label>
+        <input id="vertices" type="text">
+        <!-- <label  for="">Aristas: </label>
+        <input id="aristas" type="text" > -->
+        <button onclick="grafoButton()" type="submit">Ingresar</button>
+
+        <br>
+        <br>
+        <div id="cont-1"></div>
+        <br>
+        <table>
+            <tbody id="grafo-table">
+
+            </tbody>
+        </table>
+        <br>
+        <div id="cont-2">
+            <button id="ObtenerDatos" onclick="obtenerDatos()" type="submit" disabled>Obtener Datos</button>
+        </div>
+
+        <div id="result" style="color: rgb(0, 116, 0);">
+
+        </div>
+        <br>
+        <div style="display: block ; margin: auto;"">
+            <svg id="svg" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+
+            </svg>
+        </div>
+    
+    </center>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="grafo.js"></script>
+
+</body>
+
+</head>
+
+<body>
+
+</html>
